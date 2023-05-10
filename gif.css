@@ -1,0 +1,101 @@
+html{
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #2d3443;
+  background-image: linear-gradient(315deg, #2d3443 0%, #000000 74%);
+
+}
+
+#btn {
+  background: #222;
+  height:45px;
+  min-width: 90px;
+  border: none;
+  border-radius: 10px;
+  color: #eee;
+  font-size: 35px;
+  font-family: "Cookie", cursive;
+  position: relative;
+  Position: 1s; 
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  cursor: pointer;
+  padding-top: 4px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 10px;
+}
+
+#button {
+  background: #222;
+  height:45px;
+  min-width: 90px;
+  border: none;
+  border-radius: 10px;
+  color: #eee;
+  font-size: 35px;
+  font-family: "Cookie", cursive;
+  position: relative;
+  Position: 3s; 
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  cursor: pointer;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 10px;
+}
+
+#btn #circle{
+  height: 5px;
+  width: 5px;
+  background: transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  overflow: hidden;
+  transition: 500ms;
+}
+
+#btn:hover #circle {
+  height: 50px; 
+  width: 100px;
+  left: 0;
+  border-radius: 0;
+  border-bottom: 2px solid pink;
+  
+}
+
+#button #circles{
+  height: 5px;
+  width: 5px;
+  background: transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  overflow: hidden;
+  transition: 500ms;
+}
+
+#button:hover #circles {
+  height: 50px; 
+  width: 100px;
+  left: 0;
+  border-radius: 0;
+  border-bottom: 2px solid pink;
+}
+
+#input {
+  background: #222;
+  height: 45px;
+  width: 300px;
+  border: solid pink;
+  border-radius: 10px;
+  color: pink;
+  font-size: 25px;
+  font-family: "Cookie", cursive;
+  padding-left: 20px;
+}
